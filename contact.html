@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>School Portal</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="script.js"></script>
+</head>
+<body>
+
+<div>
+	<header class="nav-class" style="background-color:rgba(0, 0, 0, 0.9)">
+    <img src="logo.png" alt="School Logo" id="logo" />
+    <h3 id="school-name">Swarnamali Girls' College, Kandy</h3>
+    <button id="menu-toggle">&#9776;</button>
+    <ul class="nav-class" id="nav-menu">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html" class="dropbtn">ABOUT</a></li>
+      <li><a href="history.html">HISTORY</a></li>
+      <li><a href="cocurricular.html">CO-CURRICULAR</a></li>
+      <li><a href="facilities.html">FACILITIES</a></li>
+      <li><a href="news.html">NEWS</a></li>
+      <li><a href="events.html">EVENTS</a></li>
+      <li><a href="gallery.html">GALLERY</a></li>
+      <li><a href="contact.html" class="active">CONTACT</a></li>
+    </ul>
+	</header>
+
+    <div class="contact-container">
+		<form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+		  <input type="text" name="name" placeholder="Your Name" required>
+		  <input type="email" name="email" placeholder="Your Email" required>
+		  <textarea name="message" placeholder="Your Message" rows="10" required></textarea>
+		  <button type="submit">Send Message</button>
+		</form>
+
+
+		<div class="map-box">
+		  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.614391329335!2d80.62089747415946!3d7.28463929272267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3689aeeaf4961%3A0x5c06f9bec4da5e9e!2sSwarnamali%20Balika%20Maha%20Vidyalaya!5e0!3m2!1sen!2slk!4v1749420087073!5m2!1sen!2slk" width="700" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+		  </iframe>
+		</div>
+	</div>
+
+</div>
+<footer class="footer-content">
+	<div style="display:flex">
+	<div class="scl">
+	  <img src="logo.png" alt="School Logo" id="logo" style="width:120px; height:120px; margin-left:20px"/>
+	  <p> Swarnamali Girls' College, Kandy, is a leading educational institution dedicated to nuturing young minds with knowledge,
+	  displine, and cultural values. Founded with vision of empowering girls through quality education, our school has a proud
+	  legacy of academic excellence and holistic development.
+	</div>
+	<div class="connect">
+	  <div class="social-links">
+	  <h4>Connect with Us</h4>
+		<a href="https://web.facebook.com/profile.php?id=100064129505717" class="fa fa-facebook"></a>
+		<a href="https://www.instagram.com/swarnamali.girls.college/" class="fa fa-instagram"></a>
+		<a href="https://www.youtube.com/@swarnamaligirlscollegekandy" class="fa fa-youtube"></a>
+	  </div> <br>
+	  <div class="contact">
+	  <span> <i class="fa fa-phone"> </i> 0812224558 </span> <br>
+		<span> <i class="fa fa-map-marker"> </i> Swarnamali Girls' College, Kandy, Sri Lanka </span>
+	  </div>
+	</div>
+	</div> <br>
+	<div class="footer-bottom">
+		<p>&copy; 2025 Swarnamali Girls' College, Kandy. All Rights Reserved.</p>
+	</div>
+</footer>
+</body>
+</html>

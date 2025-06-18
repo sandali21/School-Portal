@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>School Portal</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="script.js"></script>
+</head>
+<body>
+
+<div>
+	<header class="nav-class" style="background-color:rgba(0, 0, 0, 0.9">
+    <img src="logo.png" alt="School Logo" id="logo" />
+    <h3 id="school-name">Swarnamali Girls' College, Kandy</h3>
+    <button id="menu-toggle">&#9776;</button>
+    <ul class="nav-class" id="nav-menu">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html" class="dropbtn">ABOUT</a></li>
+      <li><a href="history.html">HISTORY</a></li>
+      <li><a href="cocurricular.html">CO-CURRICULAR</a></li>
+      <li><a href="facilities.html">FACILITIES</a></li>
+      <li><a href="news.html" class="active">NEWS</a></li>
+      <li><a href="events.html">EVENTS</a></li>
+      <li><a href="gallery.html">GALLERY</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+	</header>
+	
+	<div class="main">
+	<h2>Swarnamaliyans Making Headlines</h2> <br>
+
+	<div id="myBtnContainer">
+	  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+	  <button class="btn" onclick="filterSelection('student')"> Students</button>
+	  <button class="btn" onclick="filterSelection('school')"> School</button>
+	  <button class="btn" onclick="filterSelection('sport')"> Sports</button>
+	  <button class="btn" onclick="filterSelection('society')"> Clubs & Societies </button>
+	</div>
+
+	<div class="news-row">
+	  <div class="card student">
+		<div class="image-container">
+		  <a href="news1.jpeg" target="_blank" > 
+		  <img src="news1.jpeg" alt="Mountains" style="width:100%" class="event-image">
+		  </a>
+		</div>
+		<div class="card-content">
+		  <h3>"Thejana Wins Big in Cartoon Art Competition!"</h3>
+		</div>
+	  </div>
+	  
+	  <div class="card school">
+		<div class="image-container">
+		  <a href="news2.jpeg" target="_blank" > 
+		  <img src="news2.jpeg" alt="Mountains" style="width:100%" class="event-image">
+		  </a>
+		</div>
+		<div class="card-content">
+		  <h3>"1st Place Victory for SGCK Western Brass Band!"</h3>
+		</div>
+	  </div>
+	  
+	  <div class="card school sport">
+		<div class="image-container">
+		  <a href="news6.png" target="_blank" > 
+		  <img src="news6.png" alt="Mountains" style="width:100%" class="event-image">
+		  </a>
+		</div>
+		<div class="card-content">
+		  <h3>"All Island Badminton Championship 2025 – U17 C Division Runners-up"</h3>
+		</div>
+	  </div>
+	  
+	  <div class="card school">
+		<div class="image-container">
+		  <a href="news5.jpeg" target="_blank" > 
+		  <img src="news5.jpeg" alt="Mountains" style="width:100%" class="event-image">
+		  <div class="news-content">
+			<p> කණිෂ්ඨ ගැහැණු සමූහ පහතරට ලලිතරාග තාලය - ප්‍රථම ස්ථානය <br>
+				ජේෂ්ඨ ගැහැණු සමූහ කතක් පරන් - ප්‍රථම ස්ථානය <br>
+				ජේෂ්ඨ ගැහැණු පහතරට ශුද්ධ මාත්‍රය - ප්‍රථම ස්ථානය <br>
+				ජේෂ්ඨ ගැහැණු පහතරට සමූහ පත්තිනි මල් අස්න - දෙවන ස්ථානය <br>
+			</p>
+		  </div>
+		  </a>
+		</div>
+		<div class="card-content">
+		  <h3>"සමස්ත ලංකා නර්තන තරග  කලාප මට්ටමේ තරගය - 2025"</h3>
+		</div>
+	  </div>
+	  
+	  <div class="card society">
+		<div class="image-container">
+		  <a href="news3.jpeg" target="_blank" > 
+		  <img src="news3.jpeg" alt="Mountains" style="width:100%" class="event-image">
+		  </a>
+		</div>
+		<div class="card-content">
+		  <h3>"Swarnamali Secures 2nd Runner-Up at Interschool Quiz Showdown!"</h3>
+		</div>
+	  </div>
+
+	  
+	</div>
+
+	</div>
+</div>
+<footer class="footer-content">
+	<div style="display:flex">
+	<div class="scl">
+	  <img src="logo.png" alt="School Logo" id="logo" style="width:120px; height:120px; margin-left:20px"/>
+	  <p> Swarnamali Girls' College, Kandy, is a leading educational institution dedicated to nuturing young minds with knowledge,
+	  displine, and cultural values. Founded with vision of empowering girls through quality education, our school has a proud
+	  legacy of academic excellence and holistic development.
+	</div>
+	<div class="connect">
+	  <div class="social-links">
+	  <h4>Connect with Us</h4>
+		<a href="https://web.facebook.com/profile.php?id=100064129505717" class="fa fa-facebook"></a>
+		<a href="https://www.instagram.com/swarnamali.girls.college/" class="fa fa-instagram"></a>
+		<a href="https://www.youtube.com/@swarnamaligirlscollegekandy" class="fa fa-youtube"></a>
+	  </div> <br>
+	  <div class="contact">
+	  <span> <i class="fa fa-phone"> </i> 0812224558 </span> <br>
+		<span> <i class="fa fa-map-marker"> </i> Swarnamali Girls' College, Kandy, Sri Lanka </span>
+	  </div>
+	</div>
+	</div> <br>
+	<div class="footer-bottom">
+		<p>&copy; 2025 Swarnamali Girls' College, Kandy. All Rights Reserved.</p>
+	</div>
+</footer>
+
+<script>
+filterSelection("all");
+
+function filterSelection(c) {
+  const cards = document.getElementsByClassName("card");
+  for (let i = 0; i < cards.length; i++) {
+    cards[i].classList.remove("show");
+    if (c === "all" || cards[i].classList.contains(c)) {
+      cards[i].classList.add("show");
+    }
+  }
+}
+
+// Button active class toggle
+const btnContainer = document.getElementById("myBtnContainer");
+const btns = btnContainer.getElementsByClassName("btn");
+
+for (let i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function () {
+    const current = document.querySelector("#myBtnContainer .active");
+    if (current) current.classList.remove("active");
+    this.classList.add("active");
+  });
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>School Portal</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="script.js"></script>
+</head>
+<style>
+</style>
+
+<body>
+	<div>
+	<header class="nav-class" style="background-color:rgba(0, 0, 0, 0.9">
+	<img src="logo.png" alt="School Logo" id="logo" />
+	<h3 id="school-name">Swarnamali Girls' College, Kandy</h3>
+	<button id="menu-toggle">&#9776;</button>
+	<ul class="nav-class" id="nav-menu">
+	  <li><a href="index.html">HOME</a></li>
+	  <li><a href="about.html" class="dropbtn">ABOUT</a></li>
+	  <li><a href="history.html">HISTORY</a></li>
+	  <li class="dropdown">
+		  <a href="cocurricular.html" class="active">CO-CURRICULAR ▾</a>
+		  <nav class="about-subnav">
+			  <ul>
+				<li><a href="#" onclick="showSection('clubs')">Clubs</a></li>
+				<li><a href="#" onclick="showSection('societies')">Societies</a></li>
+				<li><a href="#" onclick="showSection('sports')">Sports</a></li>
+				<li><a href="#" onclick="showSection('extra')">Extra Curricular</a></li>
+			  </ul>
+		  </nav>
+
+		</li>
+	  <li><a href="facilities.html">FACILITIES</a></li>
+	  <li><a href="news.html">NEWS</a></li>
+	  <li><a href="events.html">EVENTS</a></li>
+	  <li><a href="gallery.html">GALLERY</a></li>
+	  <li><a href="contact.html">CONTACT</a></li>
+	</ul>
+	</header>
+	<div class="cocurricular-content">
+		<div class="container" id="clubs">
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="club2.jpg" alt="Forest">
+				<div class="desc">PHOTOGRAPHY CLUB</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="club3.jpg" alt="Forest">
+				<div class="desc">INTERACT CLUB</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="club1.jpg" alt="Cinque Terre">
+				<div class="desc">MEDIA CLUB</div>
+			  </div>
+			</div>
+		<div class="clearfix"></div>
+		</div> 
+		
+		<div class="container" id="societies">
+		  <div class="responsive">
+			  <div class="gallery">
+				<img src="society1.png" alt="Cinque Terre">
+				<div class="desc">SCIENCE SOCIETY</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="society2.png" alt="Forest">
+				<div class="desc">ICT SOCIETY</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="society3.jpg" alt="Forest">
+				<div class="desc">COMMERCE SOCIETY</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="society6.jpg" alt="Forest">
+				<div class="desc">TECHNOLOGY SOCIETY</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="society7.jpg" alt="Forest">
+				<div class="desc">ART SOCIETY</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="society5.jpg" alt="Forest">
+				<div class="desc">ENGLISH SOCIETY</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="society4.jpg" alt="Forest">
+				<div class="desc">ASTRONOMY SOCIETY</div>
+			  </div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		
+		<div class="container" id="extra">
+		  <div class="responsive">
+			  <div class="gallery">
+				<img src="extra10.jpg" alt="Cinque Terre">
+				<div class="desc">EASTERN BAND</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="extra4.jpg" alt="Forest">
+				<div class="desc">SENIOR WESTERN BAND</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="extra6.jpg" alt="Forest">
+				<div class="desc">JUNIOR WESTERN BAND</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="extra1.jpg" alt="Forest">
+				<div class="desc">CADET BAND</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="extra5.jpg" alt="Forest">
+				<div class="desc">ST. JOHN</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="extra3.jpg" alt="Forest">
+				<div class="desc">SCOUT</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="extra2.jpg" alt="Forest">
+				<div class="desc">DANCING TROUPE</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="extra7.jpg" alt="Forest">
+				<div class="desc">CHOIR</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="extra11.jpg" alt="Forest">
+				<div class="desc">ORCHESTRA</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="extra8.jpg" alt="Forest">
+				<div class="desc">DRAMA UNIT</div>
+			  </div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		
+		<div class="container" id="sports">
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="sport1.jpg" alt="Cinque Terre">
+				<div class="desc">HOCKEY</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="sport4.jpg" alt="Forest">
+				<div class="desc">TABLE TENIS</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="sport3.jpg" alt="Forest">
+				<div class="desc">VOLLEYBALL</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="sport2.jpg" alt="Forest">
+				<div class="desc">NETBALL</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="extra14.jpg" alt="Forest">
+				<div class="desc">SWIMMING</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="extra12.jpg" alt="Forest">
+				<div class="desc">GYMNASTIC</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="sport6.jpg" alt="Forest">
+				<div class="desc">ATHLETICS</div>
+			  </div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+				<img src="sport7.jpg" alt="Forest">
+				<div class="desc">CHESS</div>
+			  </div>
+			</div>
+			
+			<div class="clearfix"></div>
+		</div>
+		
+	</div>
+  </section>
+</div>
+<footer class="footer-content">
+	<div style="display:flex">
+	<div class="scl">
+	  <img src="logo.png" alt="School Logo" id="logo" style="width:120px; height:120px; margin-left:20px"/>
+	  <p> Swarnamali Girls' College, Kandy, is a leading educational institution dedicated to nuturing young minds with knowledge,
+	  displine, and cultural values. Founded with vision of empowering girls through quality education, our school has a proud
+	  legacy of academic excellence and holistic development.
+	</div>
+	<div class="connect">
+	  <div class="social-links">
+	  <h4>Connect with Us</h4>
+		<a href="https://web.facebook.com/profile.php?id=100064129505717" class="fa fa-facebook"></a>
+		<a href="https://www.instagram.com/swarnamali.girls.college/" class="fa fa-instagram"></a>
+		<a href="https://www.youtube.com/@swarnamaligirlscollegekandy" class="fa fa-youtube"></a>
+	  </div> <br>
+	  <div class="contact">
+	  <span> <i class="fa fa-phone"> </i> 0812224558 </span> <br>
+		<span> <i class="fa fa-map-marker"> </i> Swarnamali Girls' College, Kandy, Sri Lanka </span>
+	  </div>
+	</div>
+	</div> <br> <br>
+	<div class="footer-bottom">
+		<p>&copy; 2025 Swarnamali Girls' College, Kandy. All Rights Reserved.</p>
+	</div>
+</footer>
+<script>
+function showSection(id) {
+  // Hide all sections
+  const sections = document.querySelectorAll('.cocurricular-content .container');
+  sections.forEach(section => section.style.display = 'none');
+
+  // Show the selected section
+  const target = document.getElementById(id);
+  if (target) {
+    target.style.display = 'block';
+  }
+}
+
+window.onload = function () {
+  showSection('clubs');
+};
+
+//https://th.bing.com/th/id/R.2d1e4ef9ae3067225595134764e9adc9?rik=JXA6wfDeyTSN5w&riu=http%3a%2f%2fwww.sundaytimes.lk%2f180701%2fuploads%2f138.jpg&ehk=%2b%2bVapvEonjkVIhNTnjpSkAhMUSn3Tviu4knWZj99ISI%3d&risl=&pid=ImgRaw&r=0
+
+</script>
+</body>
+</html>

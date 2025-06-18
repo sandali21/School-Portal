@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>School Portal</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="script.js"></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.facility{
+  display:flex;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:20px;
+  gap:20px;
+}
+
+.facility-container {
+  position: relative;
+  max-width: 800px;
+}
+
+.facility-content p{
+	font-size:14px;
+}
+
+.facility-container img {vertical-align: middle;}
+
+.facility-container .facility-content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  .facility{
+	  display:block;
+  }
+  
+  .facility-container {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .facility{
+	  display:block;
+  }
+  .facility-container {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<div>
+	<header class="nav-class" style="background-color:rgba(0, 0, 0, 0.9">
+    <img src="logo.png" alt="School Logo" id="logo" />
+    <h3 id="school-name">Swarnamali Girls' College, Kandy</h3>
+    <button id="menu-toggle">&#9776;</button>
+    <ul class="nav-class" id="nav-menu">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html" class="dropbtn">ABOUT</a></li>
+      <li><a href="history.html">HISTORY</a></li>
+      <li><a href="cocurricular.html">CO-CURRICULAR</a></li>
+      <li><a href="facilities.html" class="active">FACILITIES</a></li>
+      <li><a href="news.html">NEWS</a></li>
+      <li><a href="events.html">EVENTS</a></li>
+      <li><a href="gallery.html">GALLERY</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+	</header>
+	
+	<div class="facility" style="margin-top: 120px;"> 
+		<div class="facility-container">
+		  <img src="fac3.jpg" alt="Notebook" style="width:315px;">
+		  <div class="facility-content">
+			<h3>Chemistry Laboratory</h3>
+			<p>Interactive chemical experiments and reactions - for A/L Students</p>
+		  </div>
+		</div>
+		<div class="facility-container">
+		  <img src="fac4.jpg" alt="Notebook" style="width:315px;">
+		  <div class="facility-content">
+			<h3>Physics Laboratory</h3>
+			<p>Equipped for hands-on learning of physical laws and mechanics - for A/L Students</p>
+		  </div>
+		</div>
+		<div class="facility-container">
+		  <img src="fac8.jpg" alt="Notebook" style="width:315px;">
+		  <div class="facility-content">
+			<h3>Biology Laboratory</h3>
+			<p>Explore life sciences through practical experiments - for A/L Students</p>
+		  </div>
+		</div>
+		<div class="facility-container">
+		  <img src="fac7.jpg" alt="Notebook" style="width:315px;">
+		  <div class="facility-content">
+			<h3>Agriculture Laboratory</h3>
+			<p>Supports learning in plant science through practical activities - for A/L Students</p>
+		  </div>
+		</div>
+	</div>
+	
+	<div class="facility"> 
+		<div class="facility-container">
+		  <img src="fac6.jpg" alt="Notebook" style="width:100%;">
+		  <div class="facility-content">
+			<h3>ICT Laboratory</h3>
+			<p>For Grade 10-13 Students to practice computer and coding skills</p>
+		  </div>
+		</div>
+		<div class="facility-container">
+		  <img src="fac2.jpg" alt="Notebook" style="width:100%;">
+		  <div class="facility-content">
+			<h3>Science Laboratory</h3>
+			<p>Hands-on lab for 6-11 to explore science through experiments</p>
+		  </div>
+		</div>
+		<div class="facility-container">
+		  <img src="fac5.jpg" alt="Notebook" style="width:100%;">
+		  <div class="facility-content">
+			<h3>Aesthetic Rooms</h3>
+			<p>A vibrant rooms for Grade 1-13 to explore Music, Drama, Art and Dance</p>
+		  </div>
+		</div>
+		<div class="facility-container">
+		  <img src="fac1.jpg" alt="Notebook" style="width:100%;">
+		  <div class="facility-content">
+			<h3>Auditorium</h3>
+			<p>A spacious hall for school events, perfomances, and gatherings</p>
+		  </div>
+		</div>
+	</div>
+	
+</div>
+
+<footer class="footer-content">
+	<div style="display:flex">
+	<div class="scl">
+	  <img src="logo.png" alt="School Logo" id="logo" style="width:120px; height:120px; margin-left:20px"/>
+	  <p> Swarnamali Girls' College, Kandy, is a leading educational institution dedicated to nuturing young minds with knowledge,
+	  displine, and cultural values. Founded with vision of empowering girls through quality education, our school has a proud
+	  legacy of academic excellence and holistic development.
+	</div>
+	<div class="connect">
+	  <div class="social-links">
+	  <h4>Connect with Us</h4>
+		<a href="https://web.facebook.com/profile.php?id=100064129505717" class="fa fa-facebook"></a>
+		<a href="https://www.instagram.com/swarnamali.girls.college/" class="fa fa-instagram"></a>
+		<a href="https://www.youtube.com/@swarnamaligirlscollegekandy" class="fa fa-youtube"></a>
+	  </div> <br>
+	  <div class="contact">
+	  <span> <i class="fa fa-phone"> </i> 0812224558 </span> <br>
+		<span> <i class="fa fa-map-marker"> </i> Swarnamali Girls' College, Kandy, Sri Lanka </span>
+	  </div>
+	</div>
+	</div> <br>
+	<div class="footer-bottom">
+		<p>&copy; 2025 Swarnamali Girls' College, Kandy. All Rights Reserved.</p>
+	</div>
+</footer>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("newSlides");
+  let dots = document.getElementsByClassName("news-demo");
+  let captionText = document.getElementById("news-caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swarnamali Girls' College</title>
+  <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="script.js"></script>
+</head>
+<body>
+
+<div class="homepage">
+  <!-- Slideshow -->
+  <div class="slideshow-container">
+  <section class="slideshow-overlay">
+	  <div class="hero-about-call">
+		  <h1 class="fade-in"> Uncover Our Story, Symbols, and Spirit</h1>
+		  <a href="about.html" class="explore-btn">Visit the About Page <i class="fa fa-arrow-right"></i></a>
+		</div>
+   </section>
+  <div class="overlay"></div>
+	<div class="mySlides fade">
+	  <img src="s.jpg">
+	</div>
+	<div class="mySlides fade">
+	  <img src="inst.jpg">
+	</div>
+	<div class="mySlides fade">
+	  <img src="vision.jpg">
+	</div>
+	<div class="mySlides fade">
+	  <img src="oath.jpg">
+	</div>
+  </div>
+
+
+  <!-- Navigation -->
+  <header class="nav-class">
+    <img src="logo.png" alt="School Logo" id="logo" />
+    <h3 id="school-name">Swarnamali Girls' College, Kandy</h3>
+    <button id="menu-toggle">&#9776;</button>
+    <ul class="nav-class" id="nav-menu">
+      <li><a href="index.html" class="active">HOME</a></li>
+      <li><a href="about.html" class="dropbtn">ABOUT</a></li>
+      <li><a href="history.html">HISTORY</a></li>
+      <li><a href="cocurricular.html">CO-CURRICULAR</a></li>
+      <li><a href="facilities.html">FACILITIES</a></li>
+      <li><a href="news.html">NEWS</a></li>
+      <li><a href="events.html">EVENTS</a></li>
+      <li><a href="gallery.html">GALLERY</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </header>
+  <br>
+</div>
+
+<section class="history-summary-section">
+  <h2 style="text-align: center;">97 Years of Excellence</h2> <br>
+  <div class="history-summary">
+    <p>
+      Established in 1928 as “Maha Nagarika Pasala” in Katukele with just 164 students, Swarnamali Girls' College has grown into a leading educational institution in Kandy. Over the decades, it has embraced cultural, academic, and sporting excellence—earning a proud reputation for nurturing empowered, talented young women.
+    </p>
+    <a href="history.html" class="read-more-link">
+      Read More <i class="fa fa-arrow-right"></i>
+    </a>
+  </div>
+</section>
+
+<div class="scroll-container"> 
+	<h1> Gallery of Goldern Memories</h1> 
+	<p> "Explore our treasured moments captured through the years. To view more photos, please visit our <a href="gallery.html">gallery </a>" </p> 
+</div>
+<div class="scroll-container"> 
+	<img src="gal2.jpeg" alt="" width="20%">
+	<img src="extra6.jpg" alt="" width="20%">
+	<img src="extra1.jpg" alt="" width="20%">
+	<img src="extra2.jpg" alt="" width="20%">
+	<img src="extra4.jpg" alt="" width="20%">
+	<img src="extra11.jpg" alt="" width="20%"/>	
+</div> <br>
+
+<div class="homepage">
+	<div class="slideshow-container">
+	<div class="overlay"></div>
+	<img src="homenews.jpg" width="100%">
+	<div class="news-class"> 
+		<h1> Voice of Swarnamaliyans </h1> <br>
+		<p> Discover the pride and passion of Swarnamali Girls' College through our students' remarkable achievements in academics, sports, and 
+		co-curricular clubs. From national-level victories to inspiring community initiatives, every accomplishment reflects the spirit and strength 
+		of a true Swarnamaliyan.</p> <br> 
+		<a href="news.html" class="read-more-link">
+		  Read More <i class="fa fa-arrow-right"></i>
+		</a>
+	</div>
+  </div>
+</div>
+
+
+<footer class="footer-content">
+	<div style="display:flex">
+	<div class="scl">
+	  <img src="logo.png" alt="School Logo" id="logo" style="width:120px; height:120px; margin-left:20px"/>
+	  <p> Swarnamali Girls' College, Kandy, is a leading educational institution dedicated to nuturing young minds with knowledge,
+	  displine, and cultural values. Founded with vision of empowering girls through quality education, our school has a proud
+	  legacy of academic excellence and holistic development.
+	</div>
+	<div class="connect">
+	  <div class="social-links">
+	  <h4>Connect with Us</h4>
+		<a href="https://web.facebook.com/profile.php?id=100064129505717" class="fa fa-facebook"></a>
+		<a href="https://www.instagram.com/swarnamali.girls.college/" class="fa fa-instagram"></a>
+		<a href="https://www.youtube.com/@swarnamaligirlscollegekandy" class="fa fa-youtube"></a>
+	  </div> <br>
+	  <div class="contact">
+	  <span> <i class="fa fa-phone"> </i> 0812224558 </span> <br>
+		<span> <i class="fa fa-map-marker"> </i> Swarnamali Girls' College, Kandy, Sri Lanka </span>
+	  </div>
+	</div>
+	</div> <br>
+	<div class="footer-bottom">
+		<p>&copy; 2025 Swarnamali Girls' College, Kandy. All Rights Reserved.</p>
+	</div>
+</footer>
+<script>
+  // Auto slideshow
+  let slideIndex = 0;
+  function showSlides() {
+    let i;
+    const slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    slides[slideIndex-1].style.display = "block";  
+    setTimeout(showSlides, 4000); // Change every 4 seconds
+  }
+  showSlides();
+</script>
+
+</body>
+</html>
